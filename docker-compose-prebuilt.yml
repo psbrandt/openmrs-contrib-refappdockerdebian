@@ -1,4 +1,4 @@
-esaude-platform-tomcat:
+openmrs-refapp-tomcat:
   image: psbrandt-docker-openmrs-refapp-debian.bintray.io/tomcat:2.3.1
   ports:
     - "8080:8080"
@@ -6,7 +6,7 @@ esaude-platform-tomcat:
   container_name: esaude-platform-tomcat
   links:
     - esaude-platform-mysql
-esaude-platform-mysql:
+openmrs-refapp-mysql:
   image: psbrandt-docker-openmrs-refapp-debian.bintray.io/mysql:2.3.1
   ports:
     - "3306:3306"

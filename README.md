@@ -8,7 +8,7 @@ This repository contains the necessary infrastructure code and related resources
 required to compose and run Docker containers that start an instance
 of the OpenMRS Reference Application on [Debian Linux](https://www.debian.org/).
 
-> :bulb: See the [`alpine` branch](https://github.com/psbrandt/openmrs-refapp-docker/tree/alpine) for images
+> :bulb: See the [`Alpine` repo](https://github.com/psbrandt/openmrs-contrib-refappdockeralpine) for images
 that run on Alpine Linux.
 
 For more information about the OpenMRS Reference Application visit [openmrs.org](http://www.openmrs.org/).
@@ -24,7 +24,7 @@ Make sure you have [Docker](https://docs.docker.com/) and [Docker Compose](https
 To run containers use the prebuilt images, first get the compose file:
 
 ```
-wget https://raw.githubusercontent.com/psbrandt/openmrs-refapp-docker/master/docker-compose-prebuilt.yml
+wget https://raw.githubusercontent.com/psbrandt/openmrs-contrib-refappdockerdebian/master/docker-compose-prebuilt.yml
 ```
 
 Then pull the images:
@@ -69,7 +69,7 @@ Make sure you have [Docker](https://docs.docker.com/) and [Docker Compose](https
 Start by cloning this repository:
 
 ````
-git clone https://github.com/psbrandt/openmrs-refapp-docker.git
+git clone https://github.com/psbrandt/openmrs-contrib-refappdockerdebian
 ````
 
 Enter the directory and build the images:
