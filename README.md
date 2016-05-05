@@ -2,6 +2,10 @@
 
 # OpenMRS Reference Application Docker (Debian Linux)
 
+[![Build Status](https://travis-ci.org/psbrandt/openmrs-contrib-refappdockerdebian.svg?branch=master)](https://travis-ci.org/psbrandt/openmrs-contrib-refappdockerdebian)
+[![MySQL Image](https://omrs-shields.psbrandt.io/custom/mysql/337_MB_%20%7C%2019_Layers/blue?style=flat)](https://bintray.com/psbrandt/openmrs-refapp-debian/mysql/view)
+[![Tomcat Image](https://omrs-shields.psbrandt.io/custom/tomcat/453_MB_%20%7C%2026_Layers/blue?style=flat)](https://bintray.com/psbrandt/openmrs-refapp-debian/tomcat/view)
+
 > Docker containers for [OpenMRS](http://openmrs.org) Reference Application
 
 This repository contains the necessary infrastructure code and related resources
